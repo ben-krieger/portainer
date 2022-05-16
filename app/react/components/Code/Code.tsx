@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
-import { Button } from '../../../react/components/buttons';
-import { useCopy } from '../../../react/components/buttons/CopyButton/useCopy';
+import { Button } from '@/react/components/buttons';
+import { useCopy } from '@/react/components/buttons/CopyButton/useCopy';
 
 import styles from './Code.module.css';
 

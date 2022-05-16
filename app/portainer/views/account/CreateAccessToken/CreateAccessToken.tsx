@@ -7,7 +7,7 @@ import { FormControl } from '@/portainer/components/form-components/FormControl'
 import { Button } from '@/react/components/buttons';
 import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
 import { TextTip } from '@/portainer/components/Tip/TextTip';
-import { Code } from '@/portainer/components/Code';
+import { Code } from '@/react/components/Code';
 import { CopyButton } from '@/react/components/buttons/CopyButton';
 import { Input } from '@/portainer/components/form-components/Input';
 
