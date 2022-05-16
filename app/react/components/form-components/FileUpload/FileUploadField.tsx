@@ -1,6 +1,5 @@
 import { ChangeEvent, createRef } from 'react';
 
-import { r2a } from '@/react-tools/react2angular';
 import { Button } from '@/react/components/buttons';
 
 import styles from './FileUploadField.module.css';
@@ -64,10 +63,3 @@ export function FileUploadField({
     }
   }
 }
-
-export const FileUploadFieldAngular = r2a(FileUploadField, [
-  'onChange',
-  'value',
-  'title',
-  'required',
-]);

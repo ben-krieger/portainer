@@ -39,7 +39,7 @@ import type {
 } from '@/docker/containers/types';
 import { useEnvironment } from '@/portainer/environments/useEnvironment';
 import { useRowSelect } from '@/react/components/datatables/useRowSelect';
-import { Checkbox } from '@/portainer/components/form-components/Checkbox';
+import { Checkbox } from '@/react/components/form-components/Checkbox';
 import { TableFooter } from '@/react/components/datatables/TableFooter';
 import { SelectedRowsCount } from '@/react/components/datatables/SelectedRowsCount';
 

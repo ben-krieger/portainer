@@ -3,13 +3,13 @@ import { useRouter } from '@uirouter/react';
 import { Trans, useTranslation } from 'react-i18next';
 
 import { Widget, WidgetBody } from '@/portainer/components/widget';
-import { FormControl } from '@/portainer/components/form-components/FormControl';
+import { FormControl } from '@/react/components/form-components/FormControl';
 import { Button } from '@/react/components/buttons';
-import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
+import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';
 import { TextTip } from '@/portainer/components/Tip/TextTip';
 import { Code } from '@/react/components/Code';
 import { CopyButton } from '@/react/components/buttons/CopyButton';
-import { Input } from '@/portainer/components/form-components/Input';
+import { Input } from '@/react/components/form-components/Input';
 
 interface AccessTokenResponse {
   rawAPIKey: string;

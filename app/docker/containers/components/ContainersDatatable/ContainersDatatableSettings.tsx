@@ -1,6 +1,6 @@
 import { TableSettingsMenuAutoRefresh } from '@/react/components/datatables/TableSettingsMenuAutoRefresh';
 import { useTableSettings } from '@/react/components/datatables/useTableSettings';
-import { Checkbox } from '@/portainer/components/form-components/Checkbox';
+import { Checkbox } from '@/react/components/form-components/Checkbox';
 import type { ContainersTableSettings } from '@/docker/containers/types';
 
 interface Props {

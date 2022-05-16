@@ -1,7 +1,7 @@
 import { PropsWithChildren, ReactNode } from 'react';
 
-import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
-import { FileUploadField } from '@/portainer/components/form-components/FileUpload/FileUploadField';
+import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';
+import { FileUploadField } from '@/react/components/form-components/FileUpload/FileUploadField';
 
 export interface Props {
   onChange(value: unknown): void;

@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Formik, Field, Form } from 'formik';
 
-import { Switch } from '@/portainer/components/form-components/SwitchField/Switch';
-import { FormControl } from '@/portainer/components/form-components/FormControl';
-import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
+import { Switch } from '@/react/components/form-components/SwitchField/Switch';
+import { FormControl } from '@/react/components/form-components/FormControl';
+import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';
 import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
 import { LoadingButton } from '@/react/components/buttons/LoadingButton';
 import { TextTip } from '@/portainer/components/Tip/TextTip';
-import { Input } from '@/portainer/components/form-components/Input';
+import { Input } from '@/react/components/form-components/Input';
 import { FDOConfiguration } from '@/portainer/hostmanagement/fdo/model';
 import { FDOProfilesDatatableContainer } from '@/portainer/settings/edge-compute/FDOProfilesDatatable/FDOProfilesDatatableContainer';
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { Select } from '@/portainer/components/form-components/ReactSelect';
+import { Select } from '@/react/components/form-components/ReactSelect';
 import { Filter } from '@/portainer/home/types';
 
 import styles from './SortbySelector.module.css';

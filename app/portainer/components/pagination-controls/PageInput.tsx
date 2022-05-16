@@ -3,8 +3,7 @@ import { ChangeEvent, KeyboardEvent } from 'react';
 import { object, number } from 'yup';
 
 import { Button } from '@/react/components/buttons';
-
-import { Input } from '../form-components/Input';
+import { Input } from '@/react/components/form-components/Input';
 
 interface Values {
   page: number | '';

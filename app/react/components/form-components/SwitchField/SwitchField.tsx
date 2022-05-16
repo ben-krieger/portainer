@@ -2,7 +2,6 @@ import clsx from 'clsx';
 
 import { FeatureId } from '@/portainer/feature-flags/enums';
 import { Tooltip } from '@/portainer/components/Tip/Tooltip';
-import { r2a } from '@/react-tools/react2angular';
 
 import styles from './SwitchField.module.css';
 import { Switch } from './Switch';
@@ -58,15 +57,3 @@ export function SwitchField({
     </label>
   );
 }
-
-export const SwitchFieldAngular = r2a(SwitchField, [
-  'tooltip',
-  'checked',
-  'label',
-  'name',
-  'labelClass',
-  'dataCy',
-  'disabled',
-  'onChange',
-  'featureId',
-]);
