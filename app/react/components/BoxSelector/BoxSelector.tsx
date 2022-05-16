@@ -1,7 +1,5 @@
 import clsx from 'clsx';
 
-import type { FeatureId } from '@/portainer/feature-flags/enums';
-
 import './BoxSelector.css';
 import styles from './BoxSelector.module.css';
 import { BoxSelectorItem } from './BoxSelectorItem';
@@ -35,15 +33,4 @@ export function BoxSelector<T extends number | string>({
       ))}
     </div>
   );
-}
-
-export function buildOption<T extends number | string>(
-  id: string,
-  icon: string,
-  label: string,
-  description: string,
-  value: T,
-  feature?: FeatureId
-): BoxSelectorOption<T> {
-  return { id, icon, label, description, value, feature };
 }

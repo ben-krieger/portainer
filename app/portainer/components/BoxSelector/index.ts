@@ -1,11 +1,11 @@
 import angular from 'angular';
 
 import { react2angular } from '@/react-tools/react2angular';
+import { BoxSelector } from '@/react/components/BoxSelector';
 
-import { BoxSelector, buildOption } from './BoxSelector';
 import { BoxSelectorAngular } from './BoxSelectorAngular';
 
-export { BoxSelector, buildOption };
+export { buildOption } from './utils';
 const BoxSelectorReact = react2angular(BoxSelector, [
   'value',
   'onChange',
