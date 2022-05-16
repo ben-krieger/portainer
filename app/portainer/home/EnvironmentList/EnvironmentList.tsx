@@ -9,7 +9,7 @@ import {
   EnvironmentStatus,
 } from '@/portainer/environments/types';
 import { EnvironmentGroupId } from '@/portainer/environment-groups/types';
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 import { useIsAdmin } from '@/portainer/hooks/useUser';
 import {
   FilterSearchBar,

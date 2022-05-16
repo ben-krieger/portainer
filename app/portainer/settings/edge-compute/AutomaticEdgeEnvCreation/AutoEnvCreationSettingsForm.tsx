@@ -2,7 +2,7 @@ import { Field, Form, Formik } from 'formik';
 import * as yup from 'yup';
 import { useCallback, useEffect } from 'react';
 
-import { LoadingButton } from '@/portainer/components/Button/LoadingButton';
+import { LoadingButton } from '@/react/components/buttons/LoadingButton';
 import { FormControl } from '@/portainer/components/form-components/FormControl';
 import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
 import { Input } from '@/portainer/components/form-components/Input';

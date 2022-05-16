@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react';
 
-import { Button } from '../Button';
+import { Button } from '../../../react/components/buttons';
 import { Widget, WidgetBody } from '../widget';
 
 interface Props {

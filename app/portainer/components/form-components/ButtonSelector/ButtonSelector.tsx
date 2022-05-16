@@ -1,7 +1,10 @@
 import clsx from 'clsx';
 import { PropsWithChildren, ReactNode } from 'react';
 
-import { ButtonGroup, Size } from '../../Button/ButtonGroup';
+import {
+  ButtonGroup,
+  Size,
+} from '../../../../react/components/buttons/ButtonGroup';
 
 import styles from './ButtonSelector.module.css';
 

@@ -3,7 +3,7 @@ import DockerNetworkHelper from 'Docker/helpers/networkHelper';
 
 import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
 import { DetailsTable } from '@/portainer/components/DetailsTable';
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 import { Authorized } from '@/portainer/hooks/useUser';
 
 import { isSystemNetwork } from '../network.helper';

@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import _ from 'lodash';
 
 import { Code } from '@/portainer/components/Code';
-import { CopyButton } from '@/portainer/components/Button/CopyButton';
+import { CopyButton } from '@/react/components/buttons/CopyButton';
 import { NavTabs } from '@/portainer/components/NavTabs/NavTabs';
 import { getAgentShortVersion } from '@/portainer/views/endpoints/helpers';
 

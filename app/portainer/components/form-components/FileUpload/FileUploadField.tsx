@@ -1,7 +1,7 @@
 import { ChangeEvent, createRef } from 'react';
 
 import { r2a } from '@/react-tools/react2angular';
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 
 import styles from './FileUploadField.module.css';
 

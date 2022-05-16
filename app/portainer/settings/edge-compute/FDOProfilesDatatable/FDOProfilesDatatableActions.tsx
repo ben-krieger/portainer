@@ -1,7 +1,7 @@
 import { useQueryClient } from 'react-query';
 import { useRouter } from '@uirouter/react';
 
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 import { Profile } from '@/portainer/hostmanagement/fdo/model';
 import { Link } from '@/portainer/components/Link';
 import { confirmAsync } from '@/portainer/services/modal.service/confirm';

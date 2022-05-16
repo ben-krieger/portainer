@@ -5,7 +5,7 @@ import { Switch } from '@/portainer/components/form-components/SwitchField/Switc
 import { FormControl } from '@/portainer/components/form-components/FormControl';
 import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
 import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
-import { LoadingButton } from '@/portainer/components/Button/LoadingButton';
+import { LoadingButton } from '@/react/components/buttons/LoadingButton';
 import { TextTip } from '@/portainer/components/Tip/TextTip';
 import { Input } from '@/portainer/components/form-components/Input';
 import { FDOConfiguration } from '@/portainer/hostmanagement/fdo/model';

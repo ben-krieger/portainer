@@ -1,6 +1,6 @@
 import { useReducer } from 'react';
 
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
 import { useUser } from '@/portainer/hooks/useUser';
 import { r2a } from '@/react-tools/react2angular';

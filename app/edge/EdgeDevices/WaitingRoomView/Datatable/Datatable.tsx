@@ -8,7 +8,7 @@ import {
 } from 'react-table';
 import { useRowSelectColumn } from '@lineup-lite/hooks';
 
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 import { Table } from '@/portainer/components/datatables/components';
 import {
   SearchBar,

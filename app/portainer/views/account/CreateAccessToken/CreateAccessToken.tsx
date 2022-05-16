@@ -4,11 +4,11 @@ import { Trans, useTranslation } from 'react-i18next';
 
 import { Widget, WidgetBody } from '@/portainer/components/widget';
 import { FormControl } from '@/portainer/components/form-components/FormControl';
-import { Button } from '@/portainer/components/Button';
+import { Button } from '@/react/components/buttons';
 import { FormSectionTitle } from '@/portainer/components/form-components/FormSectionTitle';
 import { TextTip } from '@/portainer/components/Tip/TextTip';
 import { Code } from '@/portainer/components/Code';
-import { CopyButton } from '@/portainer/components/Button/CopyButton';
+import { CopyButton } from '@/react/components/buttons/CopyButton';
 import { Input } from '@/portainer/components/form-components/Input';
 
 interface AccessTokenResponse {

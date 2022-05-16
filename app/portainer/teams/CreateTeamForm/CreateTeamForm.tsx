@@ -6,7 +6,7 @@ import { UserViewModel } from '@/portainer/models/user';
 import { TeamViewModel } from '@/portainer/models/team';
 import { Input } from '@/portainer/components/form-components/Input';
 import { UsersSelector } from '@/portainer/components/UsersSelector';
-import { LoadingButton } from '@/portainer/components/Button/LoadingButton';
+import { LoadingButton } from '@/react/components/buttons/LoadingButton';
 
 import { validationSchema } from './CreateTeamForm.validation';
 

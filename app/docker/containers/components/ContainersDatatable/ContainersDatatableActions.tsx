@@ -16,7 +16,7 @@ import {
   stopContainer,
 } from '@/docker/containers/containers.service';
 import type { EnvironmentId } from '@/portainer/environments/types';
-import { ButtonGroup, Button } from '@/portainer/components/Button';
+import { ButtonGroup, Button } from '@/react/components/buttons';
 
 type ContainerServiceAction = (
   endpointId: EnvironmentId,
