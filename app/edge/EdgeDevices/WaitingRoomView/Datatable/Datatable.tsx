@@ -9,15 +9,15 @@ import {
 import { useRowSelectColumn } from '@lineup-lite/hooks';
 
 import { Button } from '@/react/components/buttons';
-import { Table } from '@/portainer/components/datatables/components';
+import { Table } from '@/react/components/datatables';
 import {
   SearchBar,
   useSearchBarState,
-} from '@/portainer/components/datatables/components/SearchBar';
-import { SelectedRowsCount } from '@/portainer/components/datatables/components/SelectedRowsCount';
+} from '@/react/components/datatables/SearchBar';
+import { SelectedRowsCount } from '@/react/components/datatables/SelectedRowsCount';
 import { PaginationControls } from '@/portainer/components/pagination-controls';
 import { Environment } from '@/portainer/environments/types';
-import { useTableSettings } from '@/portainer/components/datatables/components/useTableSettings';
+import { useTableSettings } from '@/react/components/datatables/useTableSettings';
 import { notifySuccess } from '@/portainer/services/notifications';
 
 import { useAssociateDeviceMutation } from '../queries';

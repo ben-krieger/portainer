@@ -14,8 +14,8 @@ import { useIsAdmin } from '@/portainer/hooks/useUser';
 import {
   FilterSearchBar,
   useSearchBarState,
-} from '@/portainer/components/datatables/components/FilterSearchBar';
-import { SortbySelector } from '@/portainer/components/datatables/components/SortbySelector';
+} from '@/react/components/datatables/FilterSearchBar';
+import { SortbySelector } from '@/react/components/datatables/SortbySelector';
 import {
   HomepageFilter,
   useHomePageFilter,
@@ -24,8 +24,8 @@ import {
   TableActions,
   TableContainer,
   TableTitle,
-} from '@/portainer/components/datatables/components';
-import { TableFooter } from '@/portainer/components/datatables/components/TableFooter';
+} from '@/react/components/datatables';
+import { TableFooter } from '@/react/components/datatables/TableFooter';
 import { useDebounce } from '@/portainer/hooks/useDebounce';
 import { useEnvironmentList } from '@/portainer/environments/queries';
 import { useGroups } from '@/portainer/environment-groups/queries';

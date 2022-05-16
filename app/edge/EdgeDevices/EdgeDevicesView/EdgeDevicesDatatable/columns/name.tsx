@@ -2,7 +2,7 @@ import { CellProps, Column } from 'react-table';
 
 import { Environment } from '@/portainer/environments/types';
 import { Link } from '@/portainer/components/Link';
-import { ExpandingCell } from '@/portainer/components/datatables/components/ExpandingCell';
+import { ExpandingCell } from '@/react/components/datatables/ExpandingCell';
 
 import { useRowContext } from './RowContext';
 

@@ -1,5 +1,5 @@
-import { TableSettingsMenuAutoRefresh } from '@/portainer/components/datatables/components/TableSettingsMenuAutoRefresh';
-import { useTableSettings } from '@/portainer/components/datatables/components/useTableSettings';
+import { TableSettingsMenuAutoRefresh } from '@/react/components/datatables/TableSettingsMenuAutoRefresh';
+import { useTableSettings } from '@/react/components/datatables/useTableSettings';
 import { Checkbox } from '@/portainer/components/form-components/Checkbox';
 import type { ContainersTableSettings } from '@/docker/containers/types';
 

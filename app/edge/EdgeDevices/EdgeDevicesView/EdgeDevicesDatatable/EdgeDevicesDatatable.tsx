@@ -13,14 +13,14 @@ import {
   TableSettingsMenu,
   TableTitle,
   TableTitleActions,
-} from '@/portainer/components/datatables/components';
-import { multiple } from '@/portainer/components/datatables/components/filter-types';
-import { useTableSettings } from '@/portainer/components/datatables/components/useTableSettings';
-import { ColumnVisibilityMenu } from '@/portainer/components/datatables/components/ColumnVisibilityMenu';
-import { SearchBar } from '@/portainer/components/datatables/components/SearchBar';
-import { useRowSelect } from '@/portainer/components/datatables/components/useRowSelect';
-import { TableFooter } from '@/portainer/components/datatables/components/TableFooter';
-import { SelectedRowsCount } from '@/portainer/components/datatables/components/SelectedRowsCount';
+} from '@/react/components/datatables';
+import { multiple } from '@/react/components/datatables/filter-types';
+import { useTableSettings } from '@/react/components/datatables/useTableSettings';
+import { ColumnVisibilityMenu } from '@/react/components/datatables/ColumnVisibilityMenu';
+import { SearchBar } from '@/react/components/datatables/SearchBar';
+import { useRowSelect } from '@/react/components/datatables/useRowSelect';
+import { TableFooter } from '@/react/components/datatables/TableFooter';
+import { SelectedRowsCount } from '@/react/components/datatables/SelectedRowsCount';
 import { AMTDevicesDatatable } from '@/edge/EdgeDevices/EdgeDevicesView/AMTDevicesDatatable/AMTDevicesDatatable';
 import { TextTip } from '@/portainer/components/Tip/TextTip';
 import { EnvironmentGroup } from '@/portainer/environment-groups/types';

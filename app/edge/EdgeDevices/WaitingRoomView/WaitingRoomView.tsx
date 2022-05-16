@@ -1,6 +1,6 @@
 import { useRouter } from '@uirouter/react';
 
-import { TableSettingsProvider } from '@/portainer/components/datatables/components/useTableSettings';
+import { TableSettingsProvider } from '@/react/components/datatables/useTableSettings';
 import { PageHeader } from '@/portainer/components/PageHeader';
 import { useEnvironmentList } from '@/portainer/environments/queries';
 import { r2a } from '@/react-tools/react2angular';
