@@ -12,7 +12,7 @@ import { pageHeaderModule } from './PageHeader';
 
 import { ReactExampleAngular } from './ReactExample';
 import { TooltipAngular } from './Tip/Tooltip';
-import { beFeatureIndicatorAngular } from './BEFeatureIndicator';
+import { beFeatureIndicator } from './BEFeatureIndicator';
 import { InformationPanelAngular } from './InformationPanel';
 import { ForcePasswordUpdateHintAngular, PasswordCheckHintAngular } from './PasswordCheckHint';
 import { ViewLoadingAngular } from './ViewLoading';
@@ -23,7 +23,7 @@ export default angular
   .component('viewLoading', ViewLoadingAngular)
   .component('portainerTooltip', TooltipAngular)
   .component('reactExample', ReactExampleAngular)
-  .component('beFeatureIndicator', beFeatureIndicatorAngular)
+  .component('beFeatureIndicator', beFeatureIndicator)
   .component('forcePasswordUpdateHint', ForcePasswordUpdateHintAngular)
   .component('passwordCheckHint', PasswordCheckHintAngular)
   .component('createAccessToken', CreateAccessTokenAngular).name;

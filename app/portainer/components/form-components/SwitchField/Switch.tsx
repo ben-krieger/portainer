@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
 import { isLimitedToBE } from '@/portainer/feature-flags/feature-flags.service';
-import { BEFeatureIndicator } from '@/portainer/components/BEFeatureIndicator';
+import { BEFeatureIndicator } from '@/react/components/BEFeatureIndicator';
 import { FeatureId } from '@/portainer/feature-flags/enums';
 import { r2a } from '@/react-tools/react2angular';
 
