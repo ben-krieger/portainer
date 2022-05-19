@@ -1,7 +1,8 @@
 import { PropsWithChildren } from 'react';
 
-import { Button } from '../../../react/components/buttons';
-import { Widget, WidgetBody } from '../widget';
+import { Widget, WidgetBody } from '@/portainer/components/widget';
+
+import { Button } from './buttons';
 
 interface Props {
   title: string;
