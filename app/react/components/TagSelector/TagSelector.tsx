@@ -7,10 +7,8 @@ import {
   Select,
 } from '@/portainer/components/form-components/ReactSelect';
 import { useCreateTagMutation, useTags } from '@/portainer/tags/queries';
-import { r2a } from '@/react-tools/react2angular';
-
-import { FormControl } from '../form-components/FormControl';
-import { Link } from '../Link';
+import { FormControl } from '@/portainer/components/form-components/FormControl';
+import { Link } from '@/portainer/components/Link';
 
 import styles from './TagSelector.module.css';
 
@@ -119,9 +117,3 @@ export function TagSelector({ value, allowCreate = false, onChange }: Props) {
     });
   }
 }
-
-export const TagSelectorAngular = r2a(TagSelector, [
-  'allowCreate',
-  'onChange',
-  'value',
-]);
