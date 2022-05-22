@@ -1,4 +1,4 @@
-import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
+import { Widget, WidgetBody, WidgetTitle } from '@/react/components/Widget';
 import { DetailsTable } from '@/react/components/DetailsTable';
 import { Button } from '@/react/components/buttons';
 import { Authorized } from '@/portainer/hooks/useUser';

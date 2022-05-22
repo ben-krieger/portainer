@@ -1,4 +1,4 @@
-import { Widget, WidgetBody } from '@/portainer/components/widget';
+import { Widget, WidgetBody } from '@/react/components/Widget';
 
 interface Props {
   value: number;

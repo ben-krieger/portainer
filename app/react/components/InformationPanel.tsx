@@ -1,7 +1,6 @@
 import { PropsWithChildren } from 'react';
 
-import { Widget, WidgetBody } from '@/portainer/components/widget';
-
+import { Widget, WidgetBody } from './Widget';
 import { Button } from './buttons';
 
 interface Props {

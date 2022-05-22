@@ -1,6 +1,6 @@
 import { createContext, PropsWithChildren, useContext } from 'react';
 
-import { Widget, WidgetBody } from '@/portainer/components/widget';
+import { Widget, WidgetBody } from '@/react/components/Widget';
 
 const Context = createContext<null | boolean>(null);
 

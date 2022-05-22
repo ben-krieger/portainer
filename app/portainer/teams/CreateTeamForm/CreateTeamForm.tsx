@@ -1,7 +1,7 @@
 import { Formik, Field, Form } from 'formik';
 
 import { FormControl } from '@/react/components/form-components/FormControl';
-import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
+import { Widget, WidgetBody, WidgetTitle } from '@/react/components/Widget';
 import { UserViewModel } from '@/portainer/models/user';
 import { TeamViewModel } from '@/portainer/models/team';
 import { Input } from '@/react/components/form-components/Input';

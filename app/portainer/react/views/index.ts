@@ -1,6 +1,3 @@
 import angular from 'angular';
 
-export const viewsModule = angular.module(
-  'portainer.docker.react.views',
-  []
-).name;
+export const viewsModule = angular.module('portainer.app.react.views', []).name;

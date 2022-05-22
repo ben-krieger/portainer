@@ -2,11 +2,11 @@ import angular from 'angular';
 
 import { CreateAccessTokenAngular } from '../views/account/CreateAccessToken';
 
+import widgetModule from './widget';
 import formComponentsModule from './form-components';
 import sidebarModule from './sidebar';
 import gitFormModule from './forms/git-form';
 import porAccessManagementModule from './accessManagement';
-import widgetModule from './widget';
 import boxSelectorModule from './BoxSelector';
 import { pageHeaderModule } from './PageHeader';
 

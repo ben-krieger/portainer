@@ -2,7 +2,7 @@ import { Formik, Form } from 'formik';
 
 import { Switch } from '@/react/components/form-components/SwitchField/Switch';
 import { FormControl } from '@/react/components/form-components/FormControl';
-import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
+import { Widget, WidgetBody, WidgetTitle } from '@/react/components/Widget';
 import { LoadingButton } from '@/react/components/buttons/LoadingButton';
 import { TextTip } from '@/react/components/Tip/TextTip';
 import { EdgeCheckinIntervalField } from '@/edge/components/EdgeCheckInIntervalField';

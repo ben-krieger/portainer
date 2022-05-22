@@ -2,7 +2,7 @@ import { PropsWithChildren, useEffect, useState } from 'react';
 import { useRouter } from '@uirouter/react';
 import { Trans, useTranslation } from 'react-i18next';
 
-import { Widget, WidgetBody } from '@/portainer/components/widget';
+import { Widget, WidgetBody } from '@/react/components/Widget';
 import { FormControl } from '@/react/components/form-components/FormControl';
 import { Button } from '@/react/components/buttons';
 import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';

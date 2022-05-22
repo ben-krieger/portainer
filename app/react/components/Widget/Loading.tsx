@@ -1,5 +1,3 @@
-import { react2angular } from '@/react-tools/react2angular';
-
 export function Loading() {
   return (
     <div className="loading">
@@ -8,5 +6,3 @@ export function Loading() {
     </div>
   );
 }
-
-export const LoadingAngular = react2angular(Loading, []);

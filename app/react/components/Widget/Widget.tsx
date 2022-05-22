@@ -10,11 +10,6 @@ export function useWidgetContext() {
   }
 }
 
-export const rdWidget = {
-  transclude: true,
-  template: `<div class="widget" ng-transclude></div>`,
-};
-
 export function Widget({ children }: PropsWithChildren<unknown>) {
   return (
     <Context.Provider value>
