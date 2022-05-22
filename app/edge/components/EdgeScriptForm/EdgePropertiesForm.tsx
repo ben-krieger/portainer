@@ -2,7 +2,7 @@ import { FormControl } from '@/react/components/form-components/FormControl';
 import { Input } from '@/react/components/form-components/Input';
 import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';
 import { SwitchField } from '@/react/components/form-components/SwitchField';
-import { TextTip } from '@/portainer/components/Tip/TextTip';
+import { TextTip } from '@/react/components/Tip/TextTip';
 
 import { OsSelector } from './OsSelector';
 import { EdgeProperties } from './types';

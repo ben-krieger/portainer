@@ -1,7 +1,7 @@
 import { PropsWithChildren, ReactNode } from 'react';
 import clsx from 'clsx';
 
-import { Tooltip } from '@/portainer/components/Tip/Tooltip';
+import { Tooltip } from '@/react/components/Tip/Tooltip';
 
 import { FormError } from '../FormError';
 

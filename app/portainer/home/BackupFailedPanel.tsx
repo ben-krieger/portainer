@@ -2,8 +2,8 @@ import { useQuery } from 'react-query';
 
 import { error as notifyError } from '@/portainer/services/notifications';
 import { InformationPanel } from '@/react/components/InformationPanel';
+import { TextTip } from '@/react/components/Tip/TextTip';
 
-import { TextTip } from '../components/Tip/TextTip';
 import { getBackupStatus } from '../services/api/backup.service';
 import { isoDate } from '../filters/filters';
 import { Link } from '../components/Link';

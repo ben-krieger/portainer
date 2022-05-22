@@ -4,7 +4,7 @@ import { Switch } from '@/react/components/form-components/SwitchField/Switch';
 import { FormControl } from '@/react/components/form-components/FormControl';
 import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
 import { LoadingButton } from '@/react/components/buttons/LoadingButton';
-import { TextTip } from '@/portainer/components/Tip/TextTip';
+import { TextTip } from '@/react/components/Tip/TextTip';
 import { EdgeCheckinIntervalField } from '@/edge/components/EdgeCheckInIntervalField';
 import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';
 

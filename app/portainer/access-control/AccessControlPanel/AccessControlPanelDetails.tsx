@@ -3,7 +3,7 @@ import { PropsWithChildren } from 'react';
 import _ from 'lodash';
 
 import { ownershipIcon, truncate } from '@/portainer/filters/filters';
-import { Tooltip } from '@/portainer/components/Tip/Tooltip';
+import { Tooltip } from '@/react/components/Tip/Tooltip';
 import { Link } from '@/portainer/components/Link';
 import { UserId } from '@/portainer/users/types';
 import { TeamId } from '@/portainer/teams/types';

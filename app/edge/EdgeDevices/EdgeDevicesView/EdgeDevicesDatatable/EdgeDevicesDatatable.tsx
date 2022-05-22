@@ -22,7 +22,7 @@ import { useRowSelect } from '@/react/components/datatables/useRowSelect';
 import { TableFooter } from '@/react/components/datatables/TableFooter';
 import { SelectedRowsCount } from '@/react/components/datatables/SelectedRowsCount';
 import { AMTDevicesDatatable } from '@/edge/EdgeDevices/EdgeDevicesView/AMTDevicesDatatable/AMTDevicesDatatable';
-import { TextTip } from '@/portainer/components/Tip/TextTip';
+import { TextTip } from '@/react/components/Tip/TextTip';
 import { EnvironmentGroup } from '@/portainer/environment-groups/types';
 
 import { EdgeDevicesDatatableActions } from './EdgeDevicesDatatableActions';

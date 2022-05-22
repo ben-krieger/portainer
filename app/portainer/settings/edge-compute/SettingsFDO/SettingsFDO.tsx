@@ -6,7 +6,7 @@ import { FormControl } from '@/react/components/form-components/FormControl';
 import { FormSectionTitle } from '@/react/components/form-components/FormSectionTitle';
 import { Widget, WidgetBody, WidgetTitle } from '@/portainer/components/widget';
 import { LoadingButton } from '@/react/components/buttons/LoadingButton';
-import { TextTip } from '@/portainer/components/Tip/TextTip';
+import { TextTip } from '@/react/components/Tip/TextTip';
 import { Input } from '@/react/components/form-components/Input';
 import { FDOConfiguration } from '@/portainer/hostmanagement/fdo/model';
 import { FDOProfilesDatatableContainer } from '@/portainer/settings/edge-compute/FDOProfilesDatatable/FDOProfilesDatatableContainer';
