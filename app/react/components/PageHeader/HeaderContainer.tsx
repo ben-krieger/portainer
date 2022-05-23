@@ -24,8 +24,3 @@ export function HeaderContainer({ children }: PropsWithChildren<unknown>) {
     </Context.Provider>
   );
 }
-
-export const HeaderAngular = {
-  transclude: true,
-  templateUrl: './HeaderContainer.html',
-};

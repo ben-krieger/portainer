@@ -1,4 +1,4 @@
-import { PageHeader } from '@/portainer/components/PageHeader';
+import { PageHeader } from '@/react/components/PageHeader';
 import { Widget, WidgetBody } from '@/portainer/components/widget';
 import { r2a } from '@/react-tools/react2angular';
 

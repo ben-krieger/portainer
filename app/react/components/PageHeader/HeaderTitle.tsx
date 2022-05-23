@@ -3,7 +3,6 @@ import { PropsWithChildren } from 'react';
 import { useUser } from '@/portainer/hooks/useUser';
 
 import { useHeaderContext } from './HeaderContainer';
-import controller from './HeaderTitle.controller';
 
 interface Props {
   title: string;
@@ -26,13 +25,3 @@ export function HeaderTitle({ title, children }: PropsWithChildren<Props>) {
     </div>
   );
 }
-
-export const HeaderTitleAngular = {
-  requires: '^rdHeader',
-  bindings: {
-    titleText: '@',
-  },
-  transclude: true,
-  templateUrl: './HeaderTitle.html',
-  controller,
-};

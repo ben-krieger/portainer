@@ -1,6 +1,6 @@
 import { useRouter } from '@uirouter/react';
 
-import { Button } from '../../../react/components/buttons';
+import { Button } from '../buttons';
 
 import { Breadcrumbs } from './Breadcrumbs';
 import { Crumb } from './Breadcrumbs/Breadcrumbs';

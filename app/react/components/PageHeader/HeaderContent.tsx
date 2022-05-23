@@ -4,7 +4,6 @@ import clsx from 'clsx';
 import { Link } from '@/portainer/components/Link';
 import { useUser } from '@/portainer/hooks/useUser';
 
-import controller from './HeaderContent.controller';
 import styles from './HeaderContent.module.css';
 import { useHeaderContext } from './HeaderContainer';
 
@@ -41,10 +40,3 @@ export function HeaderContent({ children }: PropsWithChildren<unknown>) {
     </div>
   );
 }
-
-export const HeaderContentAngular = {
-  requires: '^rdHeader',
-  transclude: true,
-  templateUrl: './HeaderContent.html',
-  controller,
-};
