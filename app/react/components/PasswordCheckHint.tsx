@@ -1,6 +1,4 @@
-import { react2angular } from '@/react-tools/react2angular';
-
-import { MinPasswordLen } from '../helpers/password';
+import { MinPasswordLen } from '@/portainer/helpers/password';
 
 export function ForcePasswordUpdateHint() {
   return (
@@ -34,9 +32,3 @@ export function PasswordCheckHint() {
     </div>
   );
 }
-
-export const ForcePasswordUpdateHintAngular = react2angular(
-  ForcePasswordUpdateHint,
-  []
-);
-export const PasswordCheckHintAngular = react2angular(PasswordCheckHint, []);
