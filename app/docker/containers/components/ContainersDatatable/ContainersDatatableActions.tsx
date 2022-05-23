@@ -2,7 +2,7 @@ import { useRouter } from '@uirouter/react';
 
 import * as notifications from '@/portainer/services/notifications';
 import { useAuthorizations, Authorized } from '@/portainer/hooks/useUser';
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 import { confirmContainerDeletion } from '@/portainer/services/modal.service/prompt';
 import { setPortainerAgentTargetHeader } from '@/portainer/services/http-request.helper';
 import type { ContainerId, DockerContainer } from '@/docker/containers/types';

@@ -1,7 +1,7 @@
 import { PropsWithChildren } from 'react';
 import clsx from 'clsx';
 
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 import { useUser } from '@/portainer/hooks/useUser';
 
 import styles from './HeaderContent.module.css';

@@ -3,10 +3,10 @@ import { useQuery } from 'react-query';
 import { error as notifyError } from '@/portainer/services/notifications';
 import { InformationPanel } from '@/react/components/InformationPanel';
 import { TextTip } from '@/react/components/Tip/TextTip';
+import { Link } from '@/react/components/Link';
 
 import { getBackupStatus } from '../services/api/backup.service';
 import { isoDate } from '../filters/filters';
-import { Link } from '../components/Link';
 
 export function BackupFailedPanel() {
   const { status, isLoading } = useBackupStatus();

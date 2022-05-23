@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 
 import './Breadcrumbs.css';
 

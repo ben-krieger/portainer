@@ -4,7 +4,7 @@ import _ from 'lodash';
 
 import { ownershipIcon, truncate } from '@/portainer/filters/filters';
 import { Tooltip } from '@/react/components/Tip/Tooltip';
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 import { UserId } from '@/portainer/users/types';
 import { TeamId } from '@/portainer/teams/types';
 import { useTeams } from '@/portainer/teams/queries';

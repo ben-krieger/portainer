@@ -14,7 +14,7 @@ import {
 } from '@/portainer/environments/utils';
 import type { TagId } from '@/portainer/tags/types';
 import { Button } from '@/react/components/buttons';
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 import { useIsAdmin } from '@/portainer/hooks/useUser';
 import { useTags } from '@/portainer/tags/queries';
 

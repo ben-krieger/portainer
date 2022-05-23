@@ -1,5 +1,5 @@
 import { InformationPanel } from '@/react/components/InformationPanel';
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 import { TextTip } from '@/react/components/Tip/TextTip';
 
 export function NoEnvironmentsInfoPanel({ isAdmin }: { isAdmin: boolean }) {

@@ -1,6 +1,6 @@
 import { UsersSelector } from '@/react/components/UsersSelector';
 import { FormControl } from '@/react/components/form-components/FormControl';
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 import { User } from '@/portainer/users/types';
 
 interface Props {

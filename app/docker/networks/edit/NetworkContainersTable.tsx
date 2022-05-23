@@ -3,7 +3,7 @@ import { DetailsTable } from '@/react/components/DetailsTable';
 import { Button } from '@/react/components/buttons';
 import { Authorized } from '@/portainer/hooks/useUser';
 import { EnvironmentId } from '@/portainer/environments/types';
-import { Link } from '@/portainer/components/Link';
+import { Link } from '@/react/components/Link';
 
 import { NetworkContainer, NetworkId } from '../types';
 import { useDisconnectContainer } from '../queries';

@@ -3,8 +3,8 @@ import { Trans, useTranslation } from 'react-i18next';
 
 import i18n from '@/i18n';
 import { react2angular } from '@/react-tools/react2angular';
+import { Link } from '@/react/components/Link';
 
-import { Link } from './Link';
 import styles from './ReactExample.module.css';
 
 export interface ReactExampleProps {
