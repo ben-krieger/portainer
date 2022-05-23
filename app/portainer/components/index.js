@@ -10,7 +10,6 @@ import porAccessManagementModule from './accessManagement';
 import boxSelectorModule from './BoxSelector';
 import { pageHeaderModule } from './PageHeader';
 
-import { ReactExampleAngular } from './ReactExample';
 import { TooltipAngular } from './Tip/Tooltip';
 import { beFeatureIndicator } from './BEFeatureIndicator';
 import { InformationPanelAngular } from './InformationPanel';
@@ -21,6 +20,5 @@ export default angular
   .component('informationPanel', InformationPanelAngular)
   .component('viewLoading', ViewLoadingAngular)
   .component('portainerTooltip', TooltipAngular)
-  .component('reactExample', ReactExampleAngular)
   .component('beFeatureIndicator', beFeatureIndicator)
   .component('createAccessToken', CreateAccessTokenAngular).name;
