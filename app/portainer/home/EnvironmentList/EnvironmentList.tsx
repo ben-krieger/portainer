@@ -1,7 +1,7 @@
 import { ReactNode, useEffect, useState } from 'react';
 import clsx from 'clsx';
 
-import { PaginationControls } from '@/portainer/components/pagination-controls';
+import { PaginationControls } from '@/react/components/PaginationControls';
 import { usePaginationLimitState } from '@/portainer/hooks/usePaginationLimitState';
 import {
   Environment,

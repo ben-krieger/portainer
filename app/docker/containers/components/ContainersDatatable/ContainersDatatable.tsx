@@ -9,7 +9,7 @@ import {
 } from 'react-table';
 import { useRowSelectColumn } from '@lineup-lite/hooks';
 
-import { PaginationControls } from '@/portainer/components/pagination-controls';
+import { PaginationControls } from '@/react/components/PaginationControls';
 import {
   QuickActionsSettings,
   buildAction,

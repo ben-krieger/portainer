@@ -1,8 +1,8 @@
 import { useTable, usePagination, useSortBy } from 'react-table';
 import { useRowSelectColumn } from '@lineup-lite/hooks';
 import { FDOProfilesDatatableActions } from 'Portainer/settings/edge-compute/FDOProfilesDatatable/FDOProfilesDatatableActions';
-import { PaginationControls } from 'Portainer/components/pagination-controls';
 
+import { PaginationControls } from '@/react/components/PaginationControls';
 import { SelectedRowsCount } from '@/react/components/datatables/SelectedRowsCount';
 import { TableFooter } from '@/react/components/datatables/TableFooter';
 import { useTableSettings } from '@/react/components/datatables/useTableSettings';

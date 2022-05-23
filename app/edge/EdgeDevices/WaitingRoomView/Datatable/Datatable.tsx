@@ -15,7 +15,7 @@ import {
   useSearchBarState,
 } from '@/react/components/datatables/SearchBar';
 import { SelectedRowsCount } from '@/react/components/datatables/SelectedRowsCount';
-import { PaginationControls } from '@/portainer/components/pagination-controls';
+import { PaginationControls } from '@/react/components/PaginationControls';
 import { Environment } from '@/portainer/environments/types';
 import { useTableSettings } from '@/react/components/datatables/useTableSettings';
 import { notifySuccess } from '@/portainer/services/notifications';
